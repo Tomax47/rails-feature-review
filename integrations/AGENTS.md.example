@@ -1,0 +1,3 @@
+# Review agent instructions — Codex / other agents
+
+For any request to review a generated Rails feature, invoke the `rails-feature-review` skill after implementation. Read current `engineering-standards` (and its field-tested FT-001..008 rules) and treat it as authoritative. Review changed code, add minimal tests, run safe isolated tests, use an authorized development browser to exercise UI flows and edge cases, and generate the evidence-based report. Never commit/push/deploy or silently fix production code. If browser access is unavailable, verdict is BLOCKED for UI features, not READY.

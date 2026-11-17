@@ -1,0 +1,3 @@
+interface:
+  display_name: "Rails Feature Review"
+  short_description: "Audit Rails code, add tests, verify dev UI and report readiness"

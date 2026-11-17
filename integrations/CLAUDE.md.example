@@ -1,0 +1,3 @@
+# Rails feature verification
+
+Apply the `rails-feature-review` skill for code review, tests, regression and E2E browser verification. Consult the latest `engineering-standards` skill. Respect the no-git-write, no-code-comments, no-Jumpstart edits, no-policy-predicate-SQL, no-ERB-assignment and minimal-changes requirements. Add only necessary test code; leave feature fixes to the implementation agent. Report observed results, screenshots/traces, rule IDs, and READY / NEEDS_FIX / BLOCKED.

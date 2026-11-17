@@ -1,0 +1,6 @@
+---
+description: Apply Rails Feature Review when checking agent-generated code or validating a feature
+globs:
+alwaysApply: false
+---
+When asked to review/test generated Rails code, follow `rails-feature-review/SKILL.md`, then load the latest `engineering-standards` skill. Audit architecture and FT rules, add minimal RSpec tests, test UI in authorized dev browser with edge cases, and report evidence. No commit/push/deploy, no risky Git commands, no changing feature code to hide failures. Never call UI ready if browser verification is missing.
